@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lato:wght@300;400;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+nav.navbar.navbar-expand-lg.bg-body-tertiary {
+    background-color: #6B3CC9 !important;
+    width: 100vw;
+}
+
+a.nav-link {
+    color: #fff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+a.nav-link:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.logo span {
+    margin: 1px;
+}
+
+.logo {
+    width: 60%;
+}
+
+.container-top {
+    margin: 0px !important
+}
+
+.header-img {
+    width: 100vw;
+    transform: scaleX(1);
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    -o-transform: scaleX(1);
+}
+
+.outer-wrapper {
+    position: relative;
+    width: 100vw;
+    padding: 0px !important;
+}
+
+.header-text {
+    position: absolute;
+    left: 80px;
+    bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 40px 32px;
+    width: 630px;
+    background: linear-gradient(256.73deg, #1CBDDD 27.86%, #4DCA79 100%), #FFFFFF;
+}
+
+.header-text p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.header-text button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 20px;
+    gap: 8px;
+    width: 212px;
+    height: 38px;
+    background: #F28D35;
+    border-radius: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 0px;
+}
+
+.two-col {
+    display: flex;
+    align-items: center;
+}
+
+.col-inner-wrap h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 33px;
+    letter-spacing: 0.4px;
+    color: #6B3CC9;
+
+}
+
+.col-inner-wrap p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.col-inner-wrap button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 20px;
+    gap: 8px;
+    height: 38px;
+    background: #F28D35;
+    border-radius: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 0px;
+}
+
+.col-inner-wrap {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.two-col.col2 {
+    flex-direction: row-reverse;
+}
+
+.footer {
+    flex-direction: row;
+    padding: 40px 80px 20px;
+    gap: 40px;
+    width: 100vw;
+    height: auto;
+    background: #6B3CC9;
+    color: #FFFFFF;
+    list-style: none;
+}
+
+.footer-inner {
+    display: flex;
+}
+
+.footer-sec.sec-1 {
+    flex: 1;
+}
+
+.footer-logo {
+    margin-bottom: 10px;
+}
+
+.footer-sec.sec-1 p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.footer h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.footer li {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.footer-sec.sec-1 p {
+    width: 413px;
+    height: 57px;
+}
+
+.footer-bottom {
+    width: 60%;
+    height: auto;
+    margin: 0px auto;
+}
+
+.footer-inner {
+    margin-bottom: 40px;
+}
+
+.footer-bottom p {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: capitalize;
+}
+
+.footer-bottom a {
+    color: #ffffff !important;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.footer-bottom hr {
+    color: #ffffff !important;
+    margin: 10px;
+    opacity: 1;
+}
+
+.footer-list {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+
+@media (max-width:992px) and (min-width:667px) {
+    div#navbarNav {
+        text-align: right;
+        margin-top: 10px;
+    }
+
+    .header-text {
+        position: relative;
+        top: 0px;
+        width: 100vw;
+        left: 0px;
+    }
+
+    .col-inner-wrap {
+        margin: 0px;
+    }
+
+    .two-col.col1 img {
+        width: 340px;
+    }
+
+    .two-col.col2 img {
+        width: 340px;
+    }
+
+    .footer-inner {
+        flex-direction: column;
+    }
+
+    .footer-list {
+        display: flex;
+        margin-top: 40px;
+    }
+}
+
+
+
+@media (max-width:667px) and (min-width:325px) {
+    .header-text {
+        position: relative;
+        top: 0px;
+        width: 100vw;
+        left: 0px;
+    }
+
+    .logo {
+        width: 86%;
+    }
+
+    button.navbar-toggler {
+        padding: 2px;
+    }
+
+    .col-inner-wrap {
+        margin: 20px;
+    }
+
+    .container-fluid {
+        padding: 0px;
+    }
+
+    .two-col.col1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .two-col.col2 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .col-inner-wrap button {
+        margin: 0px auto;
+    }
+
+    .footer-logo {
+        margin-bottom: 20px;
+    }
+
+    .footer-list {
+        margin-top: 40px;
+    }
+
+    .two-col.col1 img {
+        width: 100%;
+    }
+
+    .two-col.col2 img {
+        width: 100%;
+    }
+
+    .footer-sec.sec-1 p {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 30px;
+        margin-top: 50px;
+    }
+
+    .footer-bottom {
+        width: 100% !important;
+    }
+
+    .footer-list {
+        flex-direction: column;
+    }
+
+    .footer-inner {
+        flex-direction: column;
+    }
+
+    .footer-sec.sec-2 {
+        margin-bottom: 40px;
+    }
+
+    .footer-bottom p a {
+        margin: 0px auto;
+    }
+
+
+}
